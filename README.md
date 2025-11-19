@@ -11,9 +11,13 @@ Ahora, desarrollaremos el proceso a través del cual analizamos los datasets, co
 Comenzando el análisis del primer dataset, se hizo un preprocesamiento básico, transformando las columnas categóricas que había en numéricas, y normalizando las variables (paso importante para  poder analizar los coeficientes al entrenar el modelo de regresión mas adelante)
 
 También se realizo un pairplot entre la variable que queremos predecir (median_house_value) y las otras variables, para observar potenciales relaciones entre ellas
+
 ![pairplot del primer dataset, comparando las columnas categoricas con el median_house_value](imagenesReadme/pairplotData1.png)
+
 Si bien todos los gráficos parecen estar bastante dispersos, se observa una vaga relación con la variable "median_income", como se puede ver en la siguiente figura.
+
 ![grafico entre median_income y median_house_value con una linea trazada](imagenesReadme/pairplot2Data1.png)
+
 Podemos pensar entonces que esta variable seguramente va a tener un coeficiente relevante cuando entrenemos nuestro modelo
 
 
@@ -67,8 +71,11 @@ Igual que en el primer dataset, la variable que quisimos predecir en este fue el
 Seguimos un procedimiento parecido para el preprocesamiento, normalizando las variables, aunque no hubo que convertir ninguna columna categórica, pues no había alguna.
 
 A continuación se puede ver un pairplot comparando la variable a predecir (House_Price) con las otras en el dataset
+
 ![pairplot comparando las variables del dataset con el house_price](imagenesReadme/pairplotData2.png)
+
 Aquí se observa una relación muy notable entre "Square_Footage" y "House_Price", pues su grafico se asemeja considerablemente a una recta
+
 ![grafico scatterplot entre house_price y square_footage, con una linea recta trazada](imagenesReadme/pairplot2Data2.png)
 
 Siguiendo al entrenamiento, igual que en el primer dataset, comenzamos entrenando el modelo con todas las variables, buscando conseguir el modelo mas preciso posible, y también para poder analizar los coeficientes.
