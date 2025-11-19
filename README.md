@@ -1,5 +1,9 @@
 # 2da parte del Proyecto 2 de Python Avanzada: Regresión Linear Múltiple
 
+### Integrantes del grupo:
+- Tadeo Angel Mion Griggio
+- Tamara Abigail Rossi
+
 Para esta parte del proyecto, nosotros analizaremos dos datasets:
 1. Un dataset con información de casas en california ([link](https://www.kaggle.com/datasets/camnugent/california-housing-prices))
 2. Un dataset, también con info de casas, pero diseñado para un análisis con regresión ([link](https://www.kaggle.com/datasets/prokshitha/home-value-insights))
